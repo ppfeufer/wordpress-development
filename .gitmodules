@@ -1,0 +1,3 @@
+[submodule "wp-content/EsiClient"]
+	path = wp-content/EsiClient
+	url = git@github.com:ppfeufer/wp-esi-client.git

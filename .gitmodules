@@ -43,3 +43,15 @@
 [submodule "wp-content/plugins/wordpress-settings-api"]
 	path = wp-content/plugins/wordpress-settings-api
 	url = git@github.com:ppfeufer/wordpress-settings-api.git
+[submodule "wp-content/themes/eve-online"]
+	path = wp-content/themes/eve-online
+	url = git@github.com:ppfeufer/eve-online-wordpress-theme.git
+[submodule "wp-content/themes/ppfeufer"]
+	path = wp-content/themes/ppfeufer
+	url = git@github.com:ppfeufer/ppfeufer-wordpress-theme.git
+[submodule "wp-content/themes/yulai-federation"]
+	path = wp-content/themes/yulai-federation
+	url = git@github.com:ppfeufer/wordpress-theme-yulai-federation.git
+[submodule "wp-content/themes/yulai-federation-wiki"]
+	path = wp-content/themes/yulai-federation-wiki
+	url = git@github.com:yulai-federation/yulai-federation-wiki.git

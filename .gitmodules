@@ -1,3 +1,45 @@
 [submodule "wp-content/EsiClient"]
 	path = wp-content/EsiClient
 	url = git@github.com:ppfeufer/wp-esi-client.git
+[submodule "wp-content/plugins/ti-wp-encode-mail-addresses"]
+	path = wp-content/plugins/ti-wp-encode-mail-addresses
+	url = git@github.com:thammit/ti-wp-encode-mail-addresses.git
+[submodule "wp-content/plugins/ti-wp-pbr-employees"]
+	path = wp-content/plugins/ti-wp-pbr-employees
+	url = git@github.com:thammit/ti-wp-pbr-employees.git
+[submodule "wp-content/plugins/ti-wp-shortcodes"]
+	path = wp-content/plugins/ti-wp-shortcodes
+	url = git@github.com:thammit/ti-wp-shortcodes.git
+[submodule "wp-content/plugins/eve-online-fitting-manager"]
+	path = wp-content/plugins/eve-online-fitting-manager
+	url = git@github.com:ppfeufer/eve-online-fitting-manager.git
+[submodule "wp-content/plugins/bootstrap-3-shortcodes-for-wordpress"]
+	path = wp-content/plugins/bootstrap-3-shortcodes-for-wordpress
+	url = git@github.com:ppfeufer/bootstrap-3-shortcodes-for-wordpress.git
+[submodule "wp-content/plugins/bootstrap-video-gallery-for-wordpress"]
+	path = wp-content/plugins/bootstrap-video-gallery-for-wordpress
+	url = git@github.com:ppfeufer/bootstrap-video-gallery-for-wordpress.git
+[submodule "wp-content/plugins/download-button-shortcode"]
+	path = wp-content/plugins/download-button-shortcode
+	url = git@github.com:ppfeufer/download-button-shortcode.git
+[submodule "wp-content/plugins/eve-online-intel-tool"]
+	path = wp-content/plugins/eve-online-intel-tool
+	url = git@github.com:ppfeufer/eve-online-intel-tool.git
+[submodule "wp-content/plugins/eve-online-killboard-widget"]
+	path = wp-content/plugins/eve-online-killboard-widget
+	url = git@github.com:ppfeufer/eve-online-killboard-widget.git
+[submodule "wp-content/plugins/eve-online-tranquility-status"]
+	path = wp-content/plugins/eve-online-tranquility-status
+	url = git@github.com:ppfeufer/eve-online-tranquility-status.git
+[submodule "wp-content/plugins/eve-online-time-zones"]
+	path = wp-content/plugins/eve-online-time-zones
+	url = git@github.com:ppfeufer/eve-online-time-zones.git
+[submodule "wp-content/plugins/pp-wp-basic-security"]
+	path = wp-content/plugins/pp-wp-basic-security
+	url = git@github.com:ppfeufer/pp-wp-basic-security.git
+[submodule "wp-content/plugins/pp-wp-memory-usage"]
+	path = wp-content/plugins/pp-wp-memory-usage
+	url = git@github.com:ppfeufer/pp-wp-memory-usage.git
+[submodule "wp-content/plugins/wordpress-settings-api"]
+	path = wp-content/plugins/wordpress-settings-api
+	url = git@github.com:ppfeufer/wordpress-settings-api.git

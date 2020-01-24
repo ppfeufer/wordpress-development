@@ -76,6 +76,28 @@ class Swagger {
     protected $esiPostParameter = [];
 
     /**
+     * esiLanguages
+     *
+     * @var array
+     */
+    protected $esiLanguages = [
+        'de',
+        'en-us',
+        'fr',
+        'ja',
+        'ru',
+        'zh',
+        'ko'
+    ];
+
+    /**
+     * esiDefaultLanguage
+     *
+     * @var string
+     */
+    protected $esiDefaultLanguage = 'en-us';
+
+    /**
      * Remote Helper
      *
      * @var RemoteHelper
@@ -188,6 +210,24 @@ class Swagger {
      */
     public function setEsiVersion($esiVersion) {
         $this->esiVersion = $esiVersion;
+    }
+
+    /**
+     * getEsiLanguages
+     *
+     * @return array
+     */
+    public function getEsiLanguages(): array {
+        return $this->esiLanguages;
+    }
+
+    /**
+     * getEsiDefaultLanguage
+     *
+     * @return string
+     */
+    public function getEsiDefaultLanguage(): string {
+        return $this->esiDefaultLanguage;
     }
 
     /**

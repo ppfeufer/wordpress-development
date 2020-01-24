@@ -64,7 +64,7 @@ class Prices {
     protected function setLevels(array $levels) {
         $mapper = new JsonMapper;
 
-        $this->attackers = $mapper->mapArray($levels, [], '\\WordPress\EsiClient\Model\Insurance\Prices\Levels');
+        $this->levels = $mapper->mapArray($levels, [], '\\WordPress\EsiClient\Model\Insurance\Prices\Levels');
     }
 
     /**

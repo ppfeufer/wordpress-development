@@ -44,7 +44,7 @@ class InsuranceRepository extends Swagger {
     public function insurancePrices(string $language = 'en-us') {
         // just to make sure if some smarty pants tries to set an empty language
         if(\is_null($language) || empty($language)) {
-            $language = 'en-us';
+            $language = $this->getEsiDefaultLanguage();
         }
 
         $this->setEsiRoute($this->esiEndpoints['insurance_prices']);
@@ -58,7 +58,7 @@ class InsuranceRepository extends Swagger {
         if(!\is_null($esiData)) {
             switch($esiData['responseCode']) {
                 case 200:
-                    $returnValue = $this->mapArray(\json_encode(['effects' => $esiData['responseBody']]), '\WordPress\EsiClient\Model\Insurance\Prices');
+                    $returnValue = $this->mapArray($esiData['responseBody'], '\WordPress\EsiClient\Model\Insurance\Prices');
                     break;
 
                 // Error ...

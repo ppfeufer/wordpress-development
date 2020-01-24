@@ -1748,7 +1748,7 @@ class DebugUtility {
                 $this->fmt->sep('=>');
                 $this->fmt->colDiv();
                 $this->evaluate($value);
-                //$this->evaluate($value instanceof \Traversable ? ((count($value) > 0) ? $value : (string)$value) : $value);
+                //$this->evaluate($value instanceof \Traversable ? ((count($value) > 0) ? $value : $value->getName()) : $value);
                 $this->fmt->endRow();
             }
         }
@@ -2064,8 +2064,10 @@ class DebugUtility {
                     } else {
                         $hasType = static::$env['is7'] && $parameter->hasType();
                         if($hasType) {
+                            /* @var $type \ReflectionNamedType */
                             $type = $parameter->getType();
-                            $this->fmt->text('hint', (string) $type);
+
+                            $this->fmt->text('hint', $type->getName());
                             $this->fmt->sep(' ');
                         }
                     }
@@ -2092,6 +2094,7 @@ class DebugUtility {
                         $this->fmt->sep(', ');
                     }
                 }
+
                 $this->fmt->sep(')');
                 $this->fmt->endContain();
 
@@ -2099,6 +2102,7 @@ class DebugUtility {
 
                 if($hasReturnType) {
                     $type = $method->getReturnType();
+
                     $this->fmt->startContain('ret');
                     $this->fmt->sep(':');
                     $this->fmt->text('hint', (string) $type);

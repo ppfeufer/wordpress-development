@@ -8,6 +8,10 @@ Thumbs.db
 *.DS_Store
 **/.DS_Store
 
+.directory
+*.directory
+**/.directory
+
 /wp-content/cache/
 
 /wp-content/logs/*.log
@@ -187,7 +191,6 @@ Thumbs.db
 /wp-content/plugins/debug-mo-translations/
 /wp-content/themes/twentynineteen/
 /wp-content/themes/twentytwenty/
-
 /wp-content/themes/poison-bandbooking/
 /wp-content/themes/talos/
 /wp-content/themes/talos-child/

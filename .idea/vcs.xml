@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/EsiClient" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/bootstrap-3-shortcodes-for-wordpress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/bootstrap-video-gallery-for-wordpress" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/download-button-shortcode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/eve-online-fitting-manager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/eve-online-intel-tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/eve-online-killboard-widget" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/eve-online-time-zones" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/eve-online-tranquility-status" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/pp-wp-basic-security" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/pp-wp-memory-usage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/ti-wp-encode-mail-addresses" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/ti-wp-pbr-employees" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/ti-wp-shortcodes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/plugins/wordpress-settings-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/themes/eve-online" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/themes/ppfeufer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/themes/yulai-federation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wp-content/themes/yulai-federation-wiki" vcs="Git" />
+  </component>
+</project>
